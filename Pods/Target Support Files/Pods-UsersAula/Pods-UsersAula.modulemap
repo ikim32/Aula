@@ -1,0 +1,6 @@
+framework module Pods_UsersAula {
+  umbrella header "Pods-UsersAula-umbrella.h"
+
+  export *
+  module * { export * }
+}

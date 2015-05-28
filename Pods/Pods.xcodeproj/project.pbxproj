@@ -1,0 +1,1724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E2EA9BF916AD54C405A897 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23FDEFE99502FDEE90B58D6 /* Security.framework */; };
+		04A33D053C08DE12E3753476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1845164A559251DFEC03E0 /* Foundation.framework */; };
+		0688C935FA5CBECE8BB16E68 /* PFProductTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9577746311A049F8CE7916E3 /* PFProductTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06F68B29EAA1C3F2C871FB77 /* PFDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91277A1347D7F4906CAF1930 /* PFDismissButton.m */; };
+		08A72827E18E44EB4098859E /* PFFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F494395549176C23CCDA4DC6 /* PFFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1C5C43D1CEB8A73A36A355 /* PFColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CD00440FDDD4620A3DB338 /* PFColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C4E8BF61A902502CA484896 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B43E354BFEA14B3A201B32D /* TSMessage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CBBDB9B63B4AB2DC6860D08 /* PFSignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EC8E12A83BA1D1B203590 /* PFSignUpView.m */; };
+		0CBDB0FC06E00DA22CD26623 /* Pods-UsersAula-ParseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 306358462426EEAB968FAA64 /* Pods-UsersAula-ParseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E36991C6E184F1103A9DCCE /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B39901C3210F80A071B318D /* BoltsVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E6C9BFE02FD041033653B63 /* PFRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D369EA9053D8BF758D2754 /* PFRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E769C22AF5458AFBBB884E6 /* PFLogInViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C881F45BBEA7B7D36EC2E10 /* PFLogInViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D7C342816B894335C2B16E /* PFLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D352E877AC5B90F054DE330 /* PFLoadingView.m */; };
+		121565755DE539FF8A8256A4 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = A36B8E6760CFF9707A74C6A0 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		156EDF60251F6430819ECD86 /* PFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B84162B9CE56E19B078F7F34 /* PFTextField.m */; };
+		1574CA7850F11B79EF89E4B8 /* PFActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A66900E361B0CBE68EA2C3 /* PFActionButton.m */; };
+		15C5A8EFB72530082344DAA5 /* NotificationBackgroundWarning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DD69ECA4ECCAE83A46748A /* NotificationBackgroundWarning@2x.png */; };
+		17FB74964B70F043006BA160 /* PFTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D26ABAB6D407D48D4FA75AD9 /* PFTextButton.m */; };
+		1F3E87D288EFF476F79FF214 /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = F515CBDC72468227BC6746C0 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22E9D48D437097C3D4D48EE0 /* Pods-UsersAula-HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7AF840E3396DD149B21CB /* Pods-UsersAula-HexColors-dummy.m */; };
+		2723663DF592FDCFA9863D76 /* Pods-UsersAula-HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 060104E4DD4E2287EFFAD8D6 /* Pods-UsersAula-HexColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		295027E1E0B10BA06FCEBDA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EF73BCB58681D0DC55559E /* QuartzCore.framework */; };
+		29A925F437EBCBAB72226957 /* PFACL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1E01A9C67E5D51C1650A72 /* PFACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF55DBA2E4FC337DAC2F8B4 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B1828D1B7DA65D9A96247 /* HexColors.framework */; };
+		2D15972FC20F3DC557BD9FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4232F16CD72CE3C456D08E7B /* CoreGraphics.framework */; };
+		3469AB7C2A624F6F9D5D437F /* PFImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F2975A45B51E008D93F47EAD /* PFImageCache.m */; };
+		364EEA0281BDF0AE00EB16FC /* PFLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 180070C70C73DF0D9D2AD181 /* PFLoadingView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37075C3B68CCED7AB4D2BEEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EF73BCB58681D0DC55559E /* QuartzCore.framework */; };
+		3835CB69BF7D497B039E8045 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = CB48150CC1D3201EB6F5CF59 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38C48AF2468F0208F53A5A95 /* PFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A49E7F3F4B0269F8C98CAA /* PFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38FA7488F1D0D38C2F649D8B /* PFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7F5444352B13E8B9F4B6D /* PFCollectionViewCell.m */; };
+		3A4C197F783078792A4ABF8F /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 051AA4F16749280F3A3634BC /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3B28668B9FA3A90EF08F0F2C /* PFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 228B14B615F0CDE662DB19D2 /* PFTableViewCell.m */; };
+		3B912ADB5298D04B20589164 /* PFTextButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A1C9A23F63D9F974678DAF /* PFTextButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C332BB7F51B6E10E3B36811 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3882BD881E7834DAE67433C8 /* en.lproj */; };
+		3C6E25ABE09D3BEE4785B6FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B343CB7E0EA60661720D6B17 /* UIKit.framework */; };
+		3CE01E81DB869A960EBF1026 /* PFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885ED3670E987CCE97FBEF75 /* PFImageView.m */; };
+		3D11965EE00FD0DC99A062AE /* PFQueryTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 408375AE5FE5B9A6E81A8BBE /* PFQueryTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41CAED2B1DB6E80C7C727F3C /* NotificationBackgroundErrorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FDE0F75ADFD6BD2EEC21F9 /* NotificationBackgroundErrorIcon.png */; };
+		436B471DA5C25FFB6DBB2E4C /* NotificationButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 170CF18619B3C2AB7092C381 /* NotificationButtonBackground.png */; };
+		4751B7FABA8CBBB0E5B11B8B /* Pods-UsersAula-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C154E3022A50D435EDECE579 /* Pods-UsersAula-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E65C115939140897F97155 /* PFCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DDF21D4F88D3AA6CBBA158 /* PFCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4836DB9B0B4172E64B9E11B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93D9C1FBE059D495A9C1DE9 /* CoreLocation.framework */; };
+		48A62FCD080E1B7EA1D37BE0 /* Pods-UsersAula-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2CABF172EC7CE2D7E4BE24 /* Pods-UsersAula-dummy.m */; };
+		4B1298025947433505635314 /* PFConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 89271DE79486F74ED79C0938 /* PFConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA449EEF5BD38A077F4C27F /* PFAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DA6A409E80BA7E625AB26E /* PFAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C290509186BE7DFA5F2C2B0 /* PFRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A5DEBD4CB826D60E292D72 /* PFRect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D2301A776661E7215E321EC /* HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C86FF632FE57194DEF50E058 /* HexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA544C1266B63E828BDF57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1845164A559251DFEC03E0 /* Foundation.framework */; };
+		4EA9B8A8D7B747E83EEA2384 /* PFPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = D28C43B8AB2D5EE0E2990819 /* PFPurchase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F11612194F7D4931BFC7872 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DAF30808878D858A1C4778 /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FA0A0E32A407C6DD38A6615 /* PFPrimaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07172725083BE3549F9A19 /* PFPrimaryButton.m */; };
+		51C28E4DBB9FA377883D07E7 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C299AFBF89C819B265F7C4 /* Bolts.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		53B72F25B3D0A352F4DA6193 /* PFResources.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F43C9C5C4AD8F04FA068858 /* PFResources.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		549481CD424DD664A644E2D5 /* NotificationBackgroundErrorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AAA4497D338880D1BE6708 /* NotificationBackgroundErrorIcon@2x.png */; };
+		54AC6384ECE4074A2F4AEBAA /* PFNullability.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE81508F90CE19C5D40414B /* PFNullability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58D2A93B7DECBEF56F712FEE /* PFActivityIndicatorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8CA01AE5D9567C0588B38F /* PFActivityIndicatorTableViewCell.m */; };
+		5B63CD82CD015A5636F4E185 /* PFSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A67CE34A3A79F27D1336C32 /* PFSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE2A82A92D4E4203642670B /* PFQueryCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD931F0D689660C723B0E1B /* PFQueryCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF85C707F333EE9DA7C7442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1845164A559251DFEC03E0 /* Foundation.framework */; };
+		5C8FE09983B8465323AA48FE /* PFActivityIndicatorTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B2CD85CDA47AB9FE43632E /* PFActivityIndicatorTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E1C22C9A205D2BA7D0ECACE /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = F9168753ADF81ACBC66A947A /* BFExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6312C74BB8E3F147E84C76F4 /* PFActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6671F614EBBE5A1E3944DBEC /* PFActionButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63D95950ED73707C05C0E48D /* PFObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B80F0853440305BC3241336 /* PFObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64EA02178BD4B561A889CEBE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6C7B8542C9669362A83424 /* MobileCoreServices.framework */; };
+		659F9F76EBDE48667941B79D /* PFSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E7E6BED5522CCA187EE281 /* PFSignUpViewController.m */; };
+		667A673CC17AC1B26F7BDD84 /* Pods-UsersAula-TSMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E050B7CD152CD31714AB54A6 /* Pods-UsersAula-TSMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B804B9DA0B58B9C2FAAAC3 /* PFImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0721AE843884A892F3C5D58 /* PFImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		696BC9A893D68859AC8570CA /* NotificationBackgroundSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A61C3094E9849B9DFE9D727 /* NotificationBackgroundSuccess@2x.png */; };
+		6BE089F2E72599640B538F39 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F88B686578172DCC0835D5 /* HexColor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C1E847ABBD78B62B78C1B24 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FBF44C347ACDED1B324B22 /* CFNetwork.framework */; };
+		6C3C3416591C39FCA613D8A2 /* PFTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 03589305FD8F3B8CB2A55FFF /* PFTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB2D4BF082819F27FF1C0F /* ParseUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 23934FF8F752E9EA10CA2CAC /* ParseUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB7BEC2E5BA6AD7EE47E206 /* PFActivityIndicatorCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D457CAF8484B0F1F097603 /* PFActivityIndicatorCollectionReusableView.m */; };
+		713EA17814F1F25A01C18285 /* ParseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DACC1563367399462BF70302 /* ParseUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74039947FAD1BCB97DB8950C /* PFLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5C13628C037D7FCCD52041 /* PFLocalization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		745F18797CB69CD8EEF5CF4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6288C9216315A9E0AA5436C7 /* SystemConfiguration.framework */; };
+		7487FB0C1F650E5E6691A6E0 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B86CB34DC114EFD28FD6986 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75CCE4C48651DCDB03ABCCE4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A1655E975CCC9A7F35325C /* AudioToolbox.framework */; };
+		787B8C84F0633C9629707C78 /* PFLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4FE1F4FFA01BEC8848DC3 /* PFLogInViewController.m */; };
+		788A79CDE22019083CB7FE69 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E455EEE3FA1B9FFD06234F7B /* TSMessageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7915855539BDC1CAAD6E010E /* NotificationBackgroundWarning.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8B7BA9F7E1934C071064BF /* NotificationBackgroundWarning.png */; };
+		7930AF4FF9989D5B73AAD00E /* NotificationBackgroundSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE1184C6B7439051CFC8C65 /* NotificationBackgroundSuccess.png */; };
+		7A22DA037780274297A6E513 /* Pods-UsersAula-ParseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F10FD7745F98D411548EA11 /* Pods-UsersAula-ParseUI-dummy.m */; };
+		7C06540AB787C98771361145 /* PFUser.h in Headers */ = {isa = PBXBuildFile; fileRef = F699DFEF552A03DFEB86BCA7 /* PFUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC83EFBE50B007A94486595 /* PFDismissButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B6D66B620133798AEE129D /* PFDismissButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7ED0818969F7F3A763759355 /* PFProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAC1509201B724D8875CAA9 /* PFProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83658F1FEA3CCFF3699C31A2 /* PFResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D84C672322077219F1780F /* PFResources.m */; };
+		869E296D73B1A0AB9A243141 /* NotificationBackgroundMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A4214BABFA1F6EF984263 /* NotificationBackgroundMessage.png */; };
+		878107E4F520842D2145DCF3 /* PFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A96BFF7DA095222C4E38D15 /* PFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		883C05C0B45B933C3F3DCBE1 /* PFAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4ED6896E0D13D4DC5C3765 /* PFAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A219C7FADA207F0C8F6333E /* PF_Twitter.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB6B457151F3F2741C7F44C /* PF_Twitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF3DED1ACC59FA30135620D /* Pods-UsersAula-Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14356AEB4FB94567710763CF /* Pods-UsersAula-Bolts-dummy.m */; };
+		8C1DDCE5A5B6D869BE45BA0A /* Parse.h in Headers */ = {isa = PBXBuildFile; fileRef = BE81A886E26314FA7F241838 /* Parse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F40B152BBA446A05B8AF04 /* Pods-UsersAula-TSMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D423229504F39E9B94AF36 /* Pods-UsersAula-TSMessages-dummy.m */; };
+		9567CE8361EDC3EF033A255D /* NotificationBackgroundWarningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D76C5C2034FFAEFC2842C /* NotificationBackgroundWarningIcon@2x.png */; };
+		95F6EDADD218674EA746E883 /* PFActivityIndicatorCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E47986ED3972D044D2673DFB /* PFActivityIndicatorCollectionReusableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		984F5E114DD97F3B7A248FE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1845164A559251DFEC03E0 /* Foundation.framework */; };
+		986FA1D47521BAC5ADF9673D /* PFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6023848B83FC57A6C9AE6B /* PFImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98DBC6A48E237D167E238A88 /* NotificationBackgroundSuccessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E54ABBCFA845E4C9977E4B2 /* NotificationBackgroundSuccessIcon.png */; };
+		9E275B9DD095E81EC4ACDB73 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF75F14F674E9E511EB56B /* BFTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A1B3D97C579C2A3A41863DE5 /* PFPurchaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EEAD007A67A1521203E658 /* PFPurchaseTableViewCell.m */; };
+		A3CD9CAF6B1E39698C26320E /* PFCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AFE2283234E480400BDA76 /* PFCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3E8B9B42DD8EF89F6F7FC8D /* TSMessagesDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = ED8DC1554A8295F475CABF7E /* TSMessagesDefaultDesign.json */; };
+		A778781FF9567764A0AC6CB1 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DCFF9A70CF3ABA25F2D1EA /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8B1F435F8C7F97EB82AC20D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4232F16CD72CE3C456D08E7B /* CoreGraphics.framework */; };
+		A8F8CF5F925D40339D084E50 /* PFLogInView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C19D51EBA7B2CBA02B0F1E /* PFLogInView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB19ECAD81E9FDD75B7D7D7 /* NotificationBackgroundSuccessIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5BF790A8196E0B7FB0101E3 /* NotificationBackgroundSuccessIcon@2x.png */; };
+		ACD4E7D1019CE5820517D149 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3170BE4CE706741F26BC79 /* TSBlurView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ADC23D27E8C501666CB04954 /* Pods-UsersAula-Parse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1793EDF3B259C3EE7FCF9E1 /* Pods-UsersAula-Parse-dummy.m */; };
+		B0BE739A130AABCBD5F52878 /* PFPrimaryButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3216CF25504FA5FCD4A88B3B /* PFPrimaryButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4EB01F2C505E3BD153BDCC7 /* PFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF6B49F3BC05591C581048C /* PFAlertView.m */; };
+		B6F877A9CF781E8C927EEF07 /* NotificationButtonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F282E1390A568B3441EC3DEA /* NotificationButtonBackground@2x.png */; };
+		BB5926B528C43FFE419BBD06 /* PFQueryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894C92880FE8EB55DE8CDE5C /* PFQueryCollectionViewController.m */; };
+		BBD964C9A642B3CC38097D3D /* PFGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E3A1D7EEED0D2DDAC13E18 /* PFGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD3981C810C90AC01A18BE32 /* PFAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C6ABFC408A4C3A997BA772 /* PFAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD39AD54AA59A62DD9F587D2 /* PFRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3104CCF98D1BF50336AE783E /* PFRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF9D1B294080724F698F3B6 /* PFLogInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA0777B9F643652C666F2D /* PFLogInView.m */; };
+		C09BD9CA38374C54543A8C83 /* PFConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEB5650214A4096659A4852 /* PFConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C13D60625892E6A4FAF2F4D4 /* PFQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F374505AE18A6F0FA7F06594 /* PFQueryTableViewController.m */; };
+		C159D561003E211F9EBA28BD /* NotificationBackgroundWarningIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 266605467EF8AA7CE7F3C8D0 /* NotificationBackgroundWarningIcon.png */; };
+		C4089D4E6C390DE8A8DA4889 /* Pods-UsersAula-Bolts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408BBCA8F2F9427D79B22CD1 /* Pods-UsersAula-Bolts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4531A4A89A1F4883E806C2C /* PFInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D175992F5794F791A5958D /* PFInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5AD96F28511E1ACC1AEE3DB /* NotificationBackgroundError.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C33BAACE37E25C49BE568AE /* NotificationBackgroundError.png */; };
+		C5C8F8B696065121CA87F06D /* PFProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D1E3A730E4D949D6DC459F /* PFProductTableViewController.m */; };
+		C7E23E5F1434A18FB390B194 /* PFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13538E318C57C51E8A2FE40C /* PFColor.m */; };
+		CD2925AA4D2853BA64D0A776 /* PFTwitterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFFCE55C40BFAD73C149069 /* PFTwitterUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04EBE9E5BE02D0DD58B6CAC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB4662AAEA5AF6ABC189979 /* Bolts.framework */; };
+		D0B522D02E866B27A527FFBB /* PFTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EACFFAE72C5C9DAFE7B335C7 /* PFTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1F1923E0DCF3BE777B24E11 /* PFSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = E8056E94369D9F7F6D7BAC64 /* PFSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2BAF78B1D2AD091B353B23A /* Pods-UsersAula-Parse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EE55A529FCF50BC4CBB20F /* Pods-UsersAula-Parse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D75C7827E01FB5818B5B0AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1845164A559251DFEC03E0 /* Foundation.framework */; };
+		D88BD9D25AF9C6544369405D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD49F5B6ECBE5BFD52C79B /* Parse.framework */; };
+		DE4231E8D2BE2AC7E371837B /* NotificationBackgroundError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD591F60B80DB61B75CF1EA7 /* NotificationBackgroundError@2x.png */; };
+		E61B9522F68A089D06B74876 /* PFRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F506DED2D77D172B7A1B8813 /* PFRect.m */; };
+		E663C7D586AA2A0A539BA3D3 /* PFSignUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 629638AF52E5C4947314A3CA /* PFSignUpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6A4B09E7FB4B8406F15AAF8 /* PFImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C1C41FFAA3B08E334DABD2 /* PFImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9AA1A21E4435A3B2A617875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1845164A559251DFEC03E0 /* Foundation.framework */; };
+		EE518A2D5AD92F86E7259573 /* PFSignUpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E36C70188E48A4A3C3C499F /* PFSignUpViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEA9B544B9B4168C05C92ABC /* PFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 456D9A3B45005F3E9D7A414F /* PFQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF160D24E5B7F97E30C1A408 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F270AC4F9AD1B8B09EB6D1F6 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0077BEA8B42AC7F36CE8C16 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC660892E6E1BDDC93D61DFF /* StoreKit.framework */; };
+		F0094BE995B870D2432C61F0 /* NotificationBackgroundMessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A176C6E4335CC26AB34B663 /* NotificationBackgroundMessage@2x.png */; };
+		F331E3661F59059A6DCA8368 /* PFPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382649E36F9CAA54FFEF6D1 /* PFPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F33F90FAF83150E5CD6A3BB0 /* PFPurchaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FFDF48C73BC761884FB541 /* PFPurchaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87224C054E2E3DBC4FE2592 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7196F7912509C1379BA035DA /* Empty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F8D69F158019C8BA7A468281 /* PFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E8878959C2691FBBFAB6D00F /* PFImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06AC5E7260530AA66B97DD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8609D9808C6428D1516F9A;
+			remoteInfo = "Pods-UsersAula-Bolts";
+		};
+		09976648493B75B951246695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3F4C705C6F98666E1BFD235;
+			remoteInfo = "Pods-UsersAula-TSMessages";
+		};
+		18F223FEDFACAB435E0F11E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813FC5E1AF6F40A333A08237;
+			remoteInfo = "Pods-UsersAula-Parse";
+		};
+		221D72A97002AB8A0921298B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E233198590543D41FA563C;
+			remoteInfo = "Pods-UsersAula-HexColors";
+		};
+		43FB9A00455779C51DB3B6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5626514445E224964C4994;
+			remoteInfo = "Pods-UsersAula-ParseUI";
+		};
+		D0103A151CD2BE523CDDDF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8609D9808C6428D1516F9A;
+			remoteInfo = "Pods-UsersAula-Bolts";
+		};
+		F093E21FFBF9BEACF916A319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813FC5E1AF6F40A333A08237;
+			remoteInfo = "Pods-UsersAula-Parse";
+		};
+		F2C081B17B8A3D5CE01C4A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E233198590543D41FA563C;
+			remoteInfo = "Pods-UsersAula-HexColors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DAF30808878D858A1C4778 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		028EC8E12A83BA1D1B203590 /* PFSignUpView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFSignUpView.m; path = ParseUI/Classes/SignUpViewController/PFSignUpView.m; sourceTree = "<group>"; };
+		03589305FD8F3B8CB2A55FFF /* PFTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFTextField.h; path = ParseUI/Classes/Views/PFTextField.h; sourceTree = "<group>"; };
+		0454E7159BE21D4A7095AD7F /* Pods-UsersAula-ParseUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-ParseUI.xcconfig"; sourceTree = "<group>"; };
+		051AA4F16749280F3A3634BC /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		057ABCBD023D6DA0AAE4C7FF /* Pods-UsersAula-HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-HexColors.xcconfig"; sourceTree = "<group>"; };
+		060104E4DD4E2287EFFAD8D6 /* Pods-UsersAula-HexColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-HexColors-umbrella.h"; sourceTree = "<group>"; };
+		063F48976E6042973DC96F2D /* Pods-UsersAula-Bolts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-Bolts-Private.xcconfig"; sourceTree = "<group>"; };
+		091CF456FC42AE3F01359BBE /* Pods-UsersAula.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UsersAula.modulemap"; sourceTree = "<group>"; };
+		0D352E877AC5B90F054DE330 /* PFLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFLoadingView.m; path = ParseUI/Classes/Internal/Views/PFLoadingView.m; sourceTree = "<group>"; };
+		0E54ABBCFA845E4C9977E4B2 /* NotificationBackgroundSuccessIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccessIcon.png; path = Pod/Assets/NotificationBackgroundSuccessIcon.png; sourceTree = "<group>"; };
+		0F9A4214BABFA1F6EF984263 /* NotificationBackgroundMessage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundMessage.png; path = Pod/Assets/NotificationBackgroundMessage.png; sourceTree = "<group>"; };
+		13538E318C57C51E8A2FE40C /* PFColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFColor.m; path = ParseUI/Classes/Internal/Extensions/PFColor.m; sourceTree = "<group>"; };
+		14356AEB4FB94567710763CF /* Pods-UsersAula-Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsersAula-Bolts-dummy.m"; sourceTree = "<group>"; };
+		14DCFF9A70CF3ABA25F2D1EA /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		15EE55A529FCF50BC4CBB20F /* Pods-UsersAula-Parse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-Parse-umbrella.h"; sourceTree = "<group>"; };
+		1670534B3838EAF443A019B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170CF18619B3C2AB7092C381 /* NotificationButtonBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationButtonBackground.png; path = Pod/Assets/NotificationButtonBackground.png; sourceTree = "<group>"; };
+		180070C70C73DF0D9D2AD181 /* PFLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLoadingView.h; path = ParseUI/Classes/Internal/Views/PFLoadingView.h; sourceTree = "<group>"; };
+		19882B8909793466503FFE50 /* Pods-UsersAula-TSMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UsersAula-TSMessages.modulemap"; sourceTree = "<group>"; };
+		19B6D66B620133798AEE129D /* PFDismissButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFDismissButton.h; path = ParseUI/Classes/Internal/Views/Buttons/PFDismissButton.h; sourceTree = "<group>"; };
+		1C1845164A559251DFEC03E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1C1DE9FD0F630BBC190C9372 /* ParseUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParseUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C881F45BBEA7B7D36EC2E10 /* PFLogInViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLogInViewController.h; path = ParseUI/Classes/LogInViewController/PFLogInViewController.h; sourceTree = "<group>"; };
+		1CCA2DF5FFDB39CA69345582 /* Pods-UsersAula-ParseUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UsersAula-ParseUI.modulemap"; sourceTree = "<group>"; };
+		1CD214C0420B915854686C28 /* Pods-UsersAula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula.release.xcconfig"; sourceTree = "<group>"; };
+		21EF73BCB58681D0DC55559E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		228B14B615F0CDE662DB19D2 /* PFTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFTableViewCell.m; path = ParseUI/Classes/Cells/PFTableViewCell.m; sourceTree = "<group>"; };
+		22BF2DEBE4E26B740CB47EAB /* Pods_UsersAula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsersAula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F88B686578172DCC0835D5 /* HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColor.m; path = Classes/HexColor.m; sourceTree = "<group>"; };
+		23934FF8F752E9EA10CA2CAC /* ParseUIConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParseUIConstants.h; path = ParseUI/Other/ParseUIConstants.h; sourceTree = "<group>"; };
+		23CD49F5B6ECBE5BFD52C79B /* Parse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		266605467EF8AA7CE7F3C8D0 /* NotificationBackgroundWarningIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarningIcon.png; path = Pod/Assets/NotificationBackgroundWarningIcon.png; sourceTree = "<group>"; };
+		270E74742DB7B9AD90F359BA /* Pods-UsersAula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula.debug.xcconfig"; sourceTree = "<group>"; };
+		2FB4662AAEA5AF6ABC189979 /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		306358462426EEAB968FAA64 /* Pods-UsersAula-ParseUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-ParseUI-umbrella.h"; sourceTree = "<group>"; };
+		3104CCF98D1BF50336AE783E /* PFRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFRelation.h; path = Parse.framework/Headers/PFRelation.h; sourceTree = "<group>"; };
+		3216CF25504FA5FCD4A88B3B /* PFPrimaryButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPrimaryButton.h; path = ParseUI/Classes/Internal/Views/Buttons/PFPrimaryButton.h; sourceTree = "<group>"; };
+		3567545F25E7DDF2F3E4CFD0 /* Pods-UsersAula-HexColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-HexColors-Private.xcconfig"; sourceTree = "<group>"; };
+		3882BD881E7834DAE67433C8 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = ParseUI/Resources/Localization/en.lproj; sourceTree = "<group>"; };
+		393ACB2A91B9149D492D4684 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C19D51EBA7B2CBA02B0F1E /* PFLogInView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLogInView.h; path = ParseUI/Classes/LogInViewController/PFLogInView.h; sourceTree = "<group>"; };
+		3B7D76C5C2034FFAEFC2842C /* NotificationBackgroundWarningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarningIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundWarningIcon@2x.png"; sourceTree = "<group>"; };
+		3E36C70188E48A4A3C3C499F /* PFSignUpViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFSignUpViewController.h; path = ParseUI/Classes/SignUpViewController/PFSignUpViewController.h; sourceTree = "<group>"; };
+		408375AE5FE5B9A6E81A8BBE /* PFQueryTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFQueryTableViewController.h; path = ParseUI/Classes/QueryTableViewController/PFQueryTableViewController.h; sourceTree = "<group>"; };
+		408BBCA8F2F9427D79B22CD1 /* Pods-UsersAula-Bolts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-Bolts-umbrella.h"; sourceTree = "<group>"; };
+		4232F16CD72CE3C456D08E7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		42FBF44C347ACDED1B324B22 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		456D9A3B45005F3E9D7A414F /* PFQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFQuery.h; path = Parse.framework/Headers/PFQuery.h; sourceTree = "<group>"; };
+		46F2A3E51B095D273F7699C2 /* Pods-UsersAula-HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-HexColors-prefix.pch"; sourceTree = "<group>"; };
+		496A128E23A669BD09C973EA /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A67CE34A3A79F27D1336C32 /* PFSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFSession.h; path = Parse.framework/Headers/PFSession.h; sourceTree = "<group>"; };
+		4B6023848B83FC57A6C9AE6B /* PFImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFImage.h; path = ParseUI/Classes/Internal/Extensions/PFImage.h; sourceTree = "<group>"; };
+		4B80F0853440305BC3241336 /* PFObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PFObject+Subclass.h"; path = "Parse.framework/Headers/PFObject+Subclass.h"; sourceTree = "<group>"; };
+		4BEB5650214A4096659A4852 /* PFConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFConfig.h; path = Parse.framework/Headers/PFConfig.h; sourceTree = "<group>"; };
+		4C33BAACE37E25C49BE568AE /* NotificationBackgroundError.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundError.png; path = Pod/Assets/NotificationBackgroundError.png; sourceTree = "<group>"; };
+		4F43C9C5C4AD8F04FA068858 /* PFResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFResources.h; path = ParseUI/Generated/PFResources.h; sourceTree = "<group>"; };
+		4F6C7B8542C9669362A83424 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		4FC68AE3B9D60CBC94F644EB /* Pods-UsersAula-Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-Bolts-prefix.pch"; sourceTree = "<group>"; };
+		51D423229504F39E9B94AF36 /* Pods-UsersAula-TSMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsersAula-TSMessages-dummy.m"; sourceTree = "<group>"; };
+		5615E5F82C64E4BD43E926FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AFE2283234E480400BDA76 /* PFCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFCloud.h; path = Parse.framework/Headers/PFCloud.h; sourceTree = "<group>"; };
+		59CD00440FDDD4620A3DB338 /* PFColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFColor.h; path = ParseUI/Classes/Internal/Extensions/PFColor.h; sourceTree = "<group>"; };
+		5A61C3094E9849B9DFE9D727 /* NotificationBackgroundSuccess@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccess@2x.png"; path = "Pod/Assets/NotificationBackgroundSuccess@2x.png"; sourceTree = "<group>"; };
+		5EE7F5444352B13E8B9F4B6D /* PFCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFCollectionViewCell.m; path = ParseUI/Classes/Cells/PFCollectionViewCell.m; sourceTree = "<group>"; };
+		5F10FD7745F98D411548EA11 /* Pods-UsersAula-ParseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsersAula-ParseUI-dummy.m"; sourceTree = "<group>"; };
+		5F7FEBFBCFB26DBC4B0E971D /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C05AC7AAC1AA5C50667341 /* Pods-UsersAula-TSMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-TSMessages.xcconfig"; sourceTree = "<group>"; };
+		6288C9216315A9E0AA5436C7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		629638AF52E5C4947314A3CA /* PFSignUpView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFSignUpView.h; path = ParseUI/Classes/SignUpViewController/PFSignUpView.h; sourceTree = "<group>"; };
+		62A5DEBD4CB826D60E292D72 /* PFRect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFRect.h; path = ParseUI/Classes/Internal/Extensions/PFRect.h; sourceTree = "<group>"; };
+		63688483376E82E573C50E1D /* Pods-UsersAula-TSMessages-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-TSMessages-Private.xcconfig"; sourceTree = "<group>"; };
+		64B2CD85CDA47AB9FE43632E /* PFActivityIndicatorTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFActivityIndicatorTableViewCell.h; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorTableViewCell.h; sourceTree = "<group>"; };
+		6671F614EBBE5A1E3944DBEC /* PFActionButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFActionButton.h; path = ParseUI/Classes/Internal/Views/Buttons/PFActionButton.h; sourceTree = "<group>"; };
+		669878AA41649D2CDE87AE94 /* Pods-UsersAula-Parse-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-Parse-Private.xcconfig"; sourceTree = "<group>"; };
+		6CEA0777B9F643652C666F2D /* PFLogInView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFLogInView.m; path = ParseUI/Classes/LogInViewController/PFLogInView.m; sourceTree = "<group>"; };
+		6CEA0B8B17A29B07D263F742 /* TSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD931F0D689660C723B0E1B /* PFQueryCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFQueryCollectionViewController.h; path = ParseUI/Classes/QueryCollectionViewController/PFQueryCollectionViewController.h; sourceTree = "<group>"; };
+		6E286EB5805F42AD5FD561AD /* Pods-UsersAula-ParseUI-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-ParseUI-Private.xcconfig"; sourceTree = "<group>"; };
+		7196F7912509C1379BA035DA /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
+		71F8B77F0BA2EA3E65E98D82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D1E3A730E4D949D6DC459F /* PFProductTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFProductTableViewController.m; path = ParseUI/Classes/ProductTableViewController/PFProductTableViewController.m; sourceTree = "<group>"; };
+		778923B939F72B261C79FB49 /* Parse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D369EA9053D8BF758D2754 /* PFRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFRole.h; path = Parse.framework/Headers/PFRole.h; sourceTree = "<group>"; };
+		7A176C6E4335CC26AB34B663 /* NotificationBackgroundMessage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundMessage@2x.png"; path = "Pod/Assets/NotificationBackgroundMessage@2x.png"; sourceTree = "<group>"; };
+		7AFFCE55C40BFAD73C149069 /* PFTwitterUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFTwitterUtils.h; path = Parse.framework/Headers/PFTwitterUtils.h; sourceTree = "<group>"; };
+		7B43E354BFEA14B3A201B32D /* TSMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSMessage.m; path = Pod/Classes/TSMessage.m; sourceTree = "<group>"; };
+		7C1A11C02AC7C6DB6AD16DAD /* Pods-UsersAula-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-environment.h"; sourceTree = "<group>"; };
+		7C1E01A9C67E5D51C1650A72 /* PFACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFACL.h; path = Parse.framework/Headers/PFACL.h; sourceTree = "<group>"; };
+		7D32EFE0700EBA86B802B5EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB7BAB51BF3610E62A7ABF0 /* Pods-UsersAula-HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UsersAula-HexColors.modulemap"; sourceTree = "<group>"; };
+		7EB7AF840E3396DD149B21CB /* Pods-UsersAula-HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsersAula-HexColors-dummy.m"; sourceTree = "<group>"; };
+		80FDE0F75ADFD6BD2EEC21F9 /* NotificationBackgroundErrorIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundErrorIcon.png; path = Pod/Assets/NotificationBackgroundErrorIcon.png; sourceTree = "<group>"; };
+		85A7377D8B8A829E049DB75C /* Pods-UsersAula-Parse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-Parse-prefix.pch"; sourceTree = "<group>"; };
+		87C1C41FFAA3B08E334DABD2 /* PFImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFImageCache.h; path = ParseUI/Classes/Internal/PFImageCache.h; sourceTree = "<group>"; };
+		885ED3670E987CCE97FBEF75 /* PFImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFImageView.m; path = ParseUI/Classes/Views/PFImageView.m; sourceTree = "<group>"; };
+		89271DE79486F74ED79C0938 /* PFConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFConstants.h; path = Parse.framework/Headers/PFConstants.h; sourceTree = "<group>"; };
+		894C92880FE8EB55DE8CDE5C /* PFQueryCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFQueryCollectionViewController.m; path = ParseUI/Classes/QueryCollectionViewController/PFQueryCollectionViewController.m; sourceTree = "<group>"; };
+		8A96BFF7DA095222C4E38D15 /* PFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFNetworkActivityIndicatorManager.h; path = Parse.framework/Headers/PFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		8B39901C3210F80A071B318D /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = Bolts/Common/BoltsVersion.h; sourceTree = "<group>"; };
+		8E37A862A9923200467D781A /* Pods-UsersAula-Bolts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UsersAula-Bolts.modulemap"; sourceTree = "<group>"; };
+		8FC4FE1F4FFA01BEC8848DC3 /* PFLogInViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFLogInViewController.m; path = ParseUI/Classes/LogInViewController/PFLogInViewController.m; sourceTree = "<group>"; };
+		91277A1347D7F4906CAF1930 /* PFDismissButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFDismissButton.m; path = ParseUI/Classes/Internal/Views/Buttons/PFDismissButton.m; sourceTree = "<group>"; };
+		91A1655E975CCC9A7F35325C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		91D457CAF8484B0F1F097603 /* PFActivityIndicatorCollectionReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFActivityIndicatorCollectionReusableView.m; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorCollectionReusableView.m; sourceTree = "<group>"; };
+		91D84C672322077219F1780F /* PFResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFResources.m; path = ParseUI/Generated/PFResources.m; sourceTree = "<group>"; };
+		9336E7B22C168A7A99AF2D28 /* Pods-UsersAula-ParseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-ParseUI-prefix.pch"; sourceTree = "<group>"; };
+		9382649E36F9CAA54FFEF6D1 /* PFPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPush.h; path = Parse.framework/Headers/PFPush.h; sourceTree = "<group>"; };
+		9577746311A049F8CE7916E3 /* PFProductTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFProductTableViewController.h; path = ParseUI/Classes/ProductTableViewController/PFProductTableViewController.h; sourceTree = "<group>"; };
+		99C6ABFC408A4C3A997BA772 /* PFAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFAnalytics.h; path = Parse.framework/Headers/PFAnalytics.h; sourceTree = "<group>"; };
+		99E3A1D7EEED0D2DDAC13E18 /* PFGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFGeoPoint.h; path = Parse.framework/Headers/PFGeoPoint.h; sourceTree = "<group>"; };
+		9B07172725083BE3549F9A19 /* PFPrimaryButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFPrimaryButton.m; path = ParseUI/Classes/Internal/Views/Buttons/PFPrimaryButton.m; sourceTree = "<group>"; };
+		9B86CB34DC114EFD28FD6986 /* TSMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSMessage.h; path = Pod/Classes/TSMessage.h; sourceTree = "<group>"; };
+		A0AAA4497D338880D1BE6708 /* NotificationBackgroundErrorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundErrorIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundErrorIcon@2x.png"; sourceTree = "<group>"; };
+		A1DC393A3D924CD56911C0EF /* Pods-UsersAula-Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-Bolts.xcconfig"; sourceTree = "<group>"; };
+		A36B8E6760CFF9707A74C6A0 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		A5DD69ECA4ECCAE83A46748A /* NotificationBackgroundWarning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarning@2x.png"; path = "Pod/Assets/NotificationBackgroundWarning@2x.png"; sourceTree = "<group>"; };
+		A7F14D46A46ABF798B4ECDEE /* Pods-UsersAula-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UsersAula-frameworks.sh"; sourceTree = "<group>"; };
+		A7FFDF48C73BC761884FB541 /* PFPurchaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPurchaseTableViewCell.h; path = ParseUI/Classes/Cells/PFPurchaseTableViewCell.h; sourceTree = "<group>"; };
+		AC660892E6E1BDDC93D61DFF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		ADAC1509201B724D8875CAA9 /* PFProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFProduct.h; path = Parse.framework/Headers/PFProduct.h; sourceTree = "<group>"; };
+		AEB6B457151F3F2741C7F44C /* PF_Twitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PF_Twitter.h; path = Parse.framework/Headers/PF_Twitter.h; sourceTree = "<group>"; };
+		AF2E875A9EDE2F42D70A892B /* Pods-UsersAula-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UsersAula-resources.sh"; sourceTree = "<group>"; };
+		AF3170BE4CE706741F26BC79 /* TSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSBlurView.m; path = Pod/Classes/TSBlurView.m; sourceTree = "<group>"; };
+		AF8B7BA9F7E1934C071064BF /* NotificationBackgroundWarning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarning.png; path = Pod/Assets/NotificationBackgroundWarning.png; sourceTree = "<group>"; };
+		B1A49E7F3F4B0269F8C98CAA /* PFObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFObject.h; path = Parse.framework/Headers/PFObject.h; sourceTree = "<group>"; };
+		B1CF75F14F674E9E511EB56B /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		B1E7E6BED5522CCA187EE281 /* PFSignUpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFSignUpViewController.m; path = ParseUI/Classes/SignUpViewController/PFSignUpViewController.m; sourceTree = "<group>"; };
+		B340CC490B71A11973D0C848 /* libParse.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libParse.a; sourceTree = "<group>"; };
+		B343CB7E0EA60661720D6B17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7A66900E361B0CBE68EA2C3 /* PFActionButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFActionButton.m; path = ParseUI/Classes/Internal/Views/Buttons/PFActionButton.m; sourceTree = "<group>"; };
+		B7DA6A409E80BA7E625AB26E /* PFAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFAnonymousUtils.h; path = Parse.framework/Headers/PFAnonymousUtils.h; sourceTree = "<group>"; };
+		B84162B9CE56E19B078F7F34 /* PFTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFTextField.m; path = ParseUI/Classes/Views/PFTextField.m; sourceTree = "<group>"; };
+		B98B1828D1B7DA65D9A96247 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFD576D3618EB269A98D322 /* Pods-UsersAula-Parse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UsersAula-Parse.modulemap"; sourceTree = "<group>"; };
+		BE81A886E26314FA7F241838 /* Parse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Parse.h; path = Parse.framework/Headers/Parse.h; sourceTree = "<group>"; };
+		BF5C13628C037D7FCCD52041 /* PFLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLocalization.h; path = ParseUI/Classes/Internal/PFLocalization.h; sourceTree = "<group>"; };
+		C0721AE843884A892F3C5D58 /* PFImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFImageView.h; path = ParseUI/Classes/Views/PFImageView.h; sourceTree = "<group>"; };
+		C079AF4253A7065C415B22BB /* Pods-UsersAula-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UsersAula-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C154E3022A50D435EDECE579 /* Pods-UsersAula-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-umbrella.h"; sourceTree = "<group>"; };
+		C1A1C9A23F63D9F974678DAF /* PFTextButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFTextButton.h; path = ParseUI/Classes/Internal/Views/Buttons/PFTextButton.h; sourceTree = "<group>"; };
+		C86FF632FE57194DEF50E058 /* HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColor.h; path = Classes/HexColor.h; sourceTree = "<group>"; };
+		CB48150CC1D3201EB6F5CF59 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		CBE1184C6B7439051CFC8C65 /* NotificationBackgroundSuccess.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccess.png; path = Pod/Assets/NotificationBackgroundSuccess.png; sourceTree = "<group>"; };
+		CE2CABF172EC7CE2D7E4BE24 /* Pods-UsersAula-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsersAula-dummy.m"; sourceTree = "<group>"; };
+		D066F6A13CB35AA58F7A3050 /* Pods-UsersAula-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UsersAula-acknowledgements.plist"; sourceTree = "<group>"; };
+		D26ABAB6D407D48D4FA75AD9 /* PFTextButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFTextButton.m; path = ParseUI/Classes/Internal/Views/Buttons/PFTextButton.m; sourceTree = "<group>"; };
+		D28C43B8AB2D5EE0E2990819 /* PFPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPurchase.h; path = Parse.framework/Headers/PFPurchase.h; sourceTree = "<group>"; };
+		D6C299AFBF89C819B265F7C4 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		D7DDF21D4F88D3AA6CBBA158 /* PFCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFCollectionViewCell.h; path = ParseUI/Classes/Cells/PFCollectionViewCell.h; sourceTree = "<group>"; };
+		DA4ED6896E0D13D4DC5C3765 /* PFAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFAlertView.h; path = ParseUI/Classes/Internal/Extensions/PFAlertView.h; sourceTree = "<group>"; };
+		DACC1563367399462BF70302 /* ParseUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParseUI.h; path = ParseUI/Other/ParseUI.h; sourceTree = "<group>"; };
+		DBF6B49F3BC05591C581048C /* PFAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFAlertView.m; path = ParseUI/Classes/Internal/Extensions/PFAlertView.m; sourceTree = "<group>"; };
+		DD591F60B80DB61B75CF1EA7 /* NotificationBackgroundError@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundError@2x.png"; path = "Pod/Assets/NotificationBackgroundError@2x.png"; sourceTree = "<group>"; };
+		E050B7CD152CD31714AB54A6 /* Pods-UsersAula-TSMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-TSMessages-umbrella.h"; sourceTree = "<group>"; };
+		E23FDEFE99502FDEE90B58D6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E455EEE3FA1B9FFD06234F7B /* TSMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSMessageView.m; path = Pod/Classes/TSMessageView.m; sourceTree = "<group>"; };
+		E47986ED3972D044D2673DFB /* PFActivityIndicatorCollectionReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFActivityIndicatorCollectionReusableView.h; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorCollectionReusableView.h; sourceTree = "<group>"; };
+		E8056E94369D9F7F6D7BAC64 /* PFSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFSubclassing.h; path = Parse.framework/Headers/PFSubclassing.h; sourceTree = "<group>"; };
+		E8878959C2691FBBFAB6D00F /* PFImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFImage.m; path = ParseUI/Classes/Internal/Extensions/PFImage.m; sourceTree = "<group>"; };
+		E93D9C1FBE059D495A9C1DE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		E9D175992F5794F791A5958D /* PFInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFInstallation.h; path = Parse.framework/Headers/PFInstallation.h; sourceTree = "<group>"; };
+		EACFFAE72C5C9DAFE7B335C7 /* PFTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFTableViewCell.h; path = ParseUI/Classes/Cells/PFTableViewCell.h; sourceTree = "<group>"; };
+		ED40AC6F11E936E8D4BD6139 /* Pods-UsersAula-TSMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsersAula-TSMessages-prefix.pch"; sourceTree = "<group>"; };
+		ED8DC1554A8295F475CABF7E /* TSMessagesDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = TSMessagesDefaultDesign.json; path = Pod/Assets/TSMessagesDefaultDesign.json; sourceTree = "<group>"; };
+		F0305D0FE990D9DC01297C43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1793EDF3B259C3EE7FCF9E1 /* Pods-UsersAula-Parse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsersAula-Parse-dummy.m"; sourceTree = "<group>"; };
+		F270AC4F9AD1B8B09EB6D1F6 /* TSMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSMessageView.h; path = Pod/Classes/TSMessageView.h; sourceTree = "<group>"; };
+		F282E1390A568B3441EC3DEA /* NotificationButtonBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationButtonBackground@2x.png"; path = "Pod/Assets/NotificationButtonBackground@2x.png"; sourceTree = "<group>"; };
+		F2975A45B51E008D93F47EAD /* PFImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFImageCache.m; path = ParseUI/Classes/Internal/PFImageCache.m; sourceTree = "<group>"; };
+		F308D7FCD8F1E5971D224285 /* Pods-UsersAula-Parse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsersAula-Parse.xcconfig"; sourceTree = "<group>"; };
+		F374505AE18A6F0FA7F06594 /* PFQueryTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFQueryTableViewController.m; path = ParseUI/Classes/QueryTableViewController/PFQueryTableViewController.m; sourceTree = "<group>"; };
+		F494395549176C23CCDA4DC6 /* PFFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFFile.h; path = Parse.framework/Headers/PFFile.h; sourceTree = "<group>"; };
+		F506DED2D77D172B7A1B8813 /* PFRect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFRect.m; path = ParseUI/Classes/Internal/Extensions/PFRect.m; sourceTree = "<group>"; };
+		F515CBDC72468227BC6746C0 /* TSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSBlurView.h; path = Pod/Classes/TSBlurView.h; sourceTree = "<group>"; };
+		F5BF790A8196E0B7FB0101E3 /* NotificationBackgroundSuccessIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccessIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundSuccessIcon@2x.png"; sourceTree = "<group>"; };
+		F5EEAD007A67A1521203E658 /* PFPurchaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFPurchaseTableViewCell.m; path = ParseUI/Classes/Cells/PFPurchaseTableViewCell.m; sourceTree = "<group>"; };
+		F699DFEF552A03DFEB86BCA7 /* PFUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFUser.h; path = Parse.framework/Headers/PFUser.h; sourceTree = "<group>"; };
+		F9168753ADF81ACBC66A947A /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		FA6C0CE4926578C7D491C4D1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FCE81508F90CE19C5D40414B /* PFNullability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFNullability.h; path = Parse.framework/Headers/PFNullability.h; sourceTree = "<group>"; };
+		FE8CA01AE5D9567C0588B38F /* PFActivityIndicatorTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFActivityIndicatorTableViewCell.m; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D63DAFC3F2B2B59B2E89C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CCE4C48651DCDB03ABCCE4 /* AudioToolbox.framework in Frameworks */,
+				D04EBE9E5BE02D0DD58B6CAC /* Bolts.framework in Frameworks */,
+				6C1E847ABBD78B62B78C1B24 /* CFNetwork.framework in Frameworks */,
+				2D15972FC20F3DC557BD9FCE /* CoreGraphics.framework in Frameworks */,
+				4836DB9B0B4172E64B9E11B0 /* CoreLocation.framework in Frameworks */,
+				D75C7827E01FB5818B5B0AAC /* Foundation.framework in Frameworks */,
+				64EA02178BD4B561A889CEBE /* MobileCoreServices.framework in Frameworks */,
+				37075C3B68CCED7AB4D2BEEC /* QuartzCore.framework in Frameworks */,
+				02E2EA9BF916AD54C405A897 /* Security.framework in Frameworks */,
+				F0077BEA8B42AC7F36CE8C16 /* StoreKit.framework in Frameworks */,
+				745F18797CB69CD8EEF5CF4E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8FB92E992FAE5DE7F71827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B1F435F8C7F97EB82AC20D /* CoreGraphics.framework in Frameworks */,
+				984F5E114DD97F3B7A248FE2 /* Foundation.framework in Frameworks */,
+				D88BD9D25AF9C6544369405D /* Parse.framework in Frameworks */,
+				295027E1E0B10BA06FCEBDA9 /* QuartzCore.framework in Frameworks */,
+				3C6E25ABE09D3BEE4785B6FC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99093CEED576D3108BDB8B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF85C707F333EE9DA7C7442 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B352F82519007B55AD3D4DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AA1A21E4435A3B2A617875 /* Foundation.framework in Frameworks */,
+				2BF55DBA2E4FC337DAC2F8B4 /* HexColors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E7A8AB37A2EACC4A144328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA544C1266B63E828BDF57A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96868FC80438422059069CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A33D053C08DE12E3753476 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011DF3E7AA907643376FBA7C /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				7196F7912509C1379BA035DA /* Empty.m */,
+				7C1E01A9C67E5D51C1650A72 /* PFACL.h */,
+				99C6ABFC408A4C3A997BA772 /* PFAnalytics.h */,
+				B7DA6A409E80BA7E625AB26E /* PFAnonymousUtils.h */,
+				58AFE2283234E480400BDA76 /* PFCloud.h */,
+				4BEB5650214A4096659A4852 /* PFConfig.h */,
+				89271DE79486F74ED79C0938 /* PFConstants.h */,
+				F494395549176C23CCDA4DC6 /* PFFile.h */,
+				99E3A1D7EEED0D2DDAC13E18 /* PFGeoPoint.h */,
+				E9D175992F5794F791A5958D /* PFInstallation.h */,
+				8A96BFF7DA095222C4E38D15 /* PFNetworkActivityIndicatorManager.h */,
+				FCE81508F90CE19C5D40414B /* PFNullability.h */,
+				B1A49E7F3F4B0269F8C98CAA /* PFObject.h */,
+				4B80F0853440305BC3241336 /* PFObject+Subclass.h */,
+				ADAC1509201B724D8875CAA9 /* PFProduct.h */,
+				D28C43B8AB2D5EE0E2990819 /* PFPurchase.h */,
+				9382649E36F9CAA54FFEF6D1 /* PFPush.h */,
+				456D9A3B45005F3E9D7A414F /* PFQuery.h */,
+				3104CCF98D1BF50336AE783E /* PFRelation.h */,
+				79D369EA9053D8BF758D2754 /* PFRole.h */,
+				4A67CE34A3A79F27D1336C32 /* PFSession.h */,
+				E8056E94369D9F7F6D7BAC64 /* PFSubclassing.h */,
+				7AFFCE55C40BFAD73C149069 /* PFTwitterUtils.h */,
+				F699DFEF552A03DFEB86BCA7 /* PFUser.h */,
+				AEB6B457151F3F2741C7F44C /* PF_Twitter.h */,
+				BE81A886E26314FA7F241838 /* Parse.h */,
+				A43F6FFF2B295292AC1688FF /* Frameworks */,
+				12F9E4099999EB6908CBE8D5 /* Support Files */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		017329F5702567BE6A8921DC = {
+			isa = PBXGroup;
+			children = (
+				FA6C0CE4926578C7D491C4D1 /* Podfile */,
+				5CF020B2EDAA39710B1EA2E6 /* Frameworks */,
+				85E036CFCEEC5F5CCBB429BB /* Pods */,
+				2723171634599687558E2B5A /* Products */,
+				99C44FC0FB6AD85715D0B42D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		12F9E4099999EB6908CBE8D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1670534B3838EAF443A019B4 /* Info.plist */,
+				BAFD576D3618EB269A98D322 /* Pods-UsersAula-Parse.modulemap */,
+				F308D7FCD8F1E5971D224285 /* Pods-UsersAula-Parse.xcconfig */,
+				669878AA41649D2CDE87AE94 /* Pods-UsersAula-Parse-Private.xcconfig */,
+				F1793EDF3B259C3EE7FCF9E1 /* Pods-UsersAula-Parse-dummy.m */,
+				85A7377D8B8A829E049DB75C /* Pods-UsersAula-Parse-prefix.pch */,
+				15EE55A529FCF50BC4CBB20F /* Pods-UsersAula-Parse-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UsersAula-Parse";
+			sourceTree = "<group>";
+		};
+		1D65A3EC8A0ACC677D461A99 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				CB48150CC1D3201EB6F5CF59 /* BFExecutor.h */,
+				F9168753ADF81ACBC66A947A /* BFExecutor.m */,
+				14DCFF9A70CF3ABA25F2D1EA /* BFTask.h */,
+				B1CF75F14F674E9E511EB56B /* BFTask.m */,
+				01DAF30808878D858A1C4778 /* BFTaskCompletionSource.h */,
+				051AA4F16749280F3A3634BC /* BFTaskCompletionSource.m */,
+				A36B8E6760CFF9707A74C6A0 /* Bolts.h */,
+				D6C299AFBF89C819B265F7C4 /* Bolts.m */,
+				8B39901C3210F80A071B318D /* BoltsVersion.h */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		2723171634599687558E2B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F7FEBFBCFB26DBC4B0E971D /* Bolts.framework */,
+				496A128E23A669BD09C973EA /* HexColors.framework */,
+				778923B939F72B261C79FB49 /* Parse.framework */,
+				1C1DE9FD0F630BBC190C9372 /* ParseUI.framework */,
+				22BF2DEBE4E26B740CB47EAB /* Pods_UsersAula.framework */,
+				6CEA0B8B17A29B07D263F742 /* TSMessages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D13A0EAF0309AA50C1D4452 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3882BD881E7834DAE67433C8 /* en.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		386DF7C665EE8E6D86F67690 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				91A1655E975CCC9A7F35325C /* AudioToolbox.framework */,
+				42FBF44C347ACDED1B324B22 /* CFNetwork.framework */,
+				4232F16CD72CE3C456D08E7B /* CoreGraphics.framework */,
+				E93D9C1FBE059D495A9C1DE9 /* CoreLocation.framework */,
+				1C1845164A559251DFEC03E0 /* Foundation.framework */,
+				4F6C7B8542C9669362A83424 /* MobileCoreServices.framework */,
+				21EF73BCB58681D0DC55559E /* QuartzCore.framework */,
+				E23FDEFE99502FDEE90B58D6 /* Security.framework */,
+				AC660892E6E1BDDC93D61DFF /* StoreKit.framework */,
+				6288C9216315A9E0AA5436C7 /* SystemConfiguration.framework */,
+				B343CB7E0EA60661720D6B17 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		45FFAFB49423CE895E60645D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D32EFE0700EBA86B802B5EE /* Info.plist */,
+				1CCA2DF5FFDB39CA69345582 /* Pods-UsersAula-ParseUI.modulemap */,
+				0454E7159BE21D4A7095AD7F /* Pods-UsersAula-ParseUI.xcconfig */,
+				6E286EB5805F42AD5FD561AD /* Pods-UsersAula-ParseUI-Private.xcconfig */,
+				5F10FD7745F98D411548EA11 /* Pods-UsersAula-ParseUI-dummy.m */,
+				9336E7B22C168A7A99AF2D28 /* Pods-UsersAula-ParseUI-prefix.pch */,
+				306358462426EEAB968FAA64 /* Pods-UsersAula-ParseUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UsersAula-ParseUI";
+			sourceTree = "<group>";
+		};
+		584EB4248766607B333D304D /* TSMessages */ = {
+			isa = PBXGroup;
+			children = (
+				F515CBDC72468227BC6746C0 /* TSBlurView.h */,
+				AF3170BE4CE706741F26BC79 /* TSBlurView.m */,
+				9B86CB34DC114EFD28FD6986 /* TSMessage.h */,
+				7B43E354BFEA14B3A201B32D /* TSMessage.m */,
+				F270AC4F9AD1B8B09EB6D1F6 /* TSMessageView.h */,
+				E455EEE3FA1B9FFD06234F7B /* TSMessageView.m */,
+				8C98243F5262AA6512D9CB90 /* Resources */,
+				73790F3E5F25434980E3B26E /* Support Files */,
+			);
+			path = TSMessages;
+			sourceTree = "<group>";
+		};
+		5CF020B2EDAA39710B1EA2E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4662AAEA5AF6ABC189979 /* Bolts.framework */,
+				B98B1828D1B7DA65D9A96247 /* HexColors.framework */,
+				23CD49F5B6ECBE5BFD52C79B /* Parse.framework */,
+				386DF7C665EE8E6D86F67690 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73790F3E5F25434980E3B26E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71F8B77F0BA2EA3E65E98D82 /* Info.plist */,
+				19882B8909793466503FFE50 /* Pods-UsersAula-TSMessages.modulemap */,
+				61C05AC7AAC1AA5C50667341 /* Pods-UsersAula-TSMessages.xcconfig */,
+				63688483376E82E573C50E1D /* Pods-UsersAula-TSMessages-Private.xcconfig */,
+				51D423229504F39E9B94AF36 /* Pods-UsersAula-TSMessages-dummy.m */,
+				ED40AC6F11E936E8D4BD6139 /* Pods-UsersAula-TSMessages-prefix.pch */,
+				E050B7CD152CD31714AB54A6 /* Pods-UsersAula-TSMessages-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UsersAula-TSMessages";
+			sourceTree = "<group>";
+		};
+		85E036CFCEEC5F5CCBB429BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AD17E8564649A58EC7894 /* Bolts */,
+				BC6C8906113B7387330B3890 /* HexColors */,
+				011DF3E7AA907643376FBA7C /* Parse */,
+				D88A72ED18C8C7DDEDBE5C5D /* ParseUI */,
+				584EB4248766607B333D304D /* TSMessages */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A4AD17E8564649A58EC7894 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				F7B86BA814F8DD6F5F3880BC /* Support Files */,
+				1D65A3EC8A0ACC677D461A99 /* Tasks */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+		8C98243F5262AA6512D9CB90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C33BAACE37E25C49BE568AE /* NotificationBackgroundError.png */,
+				DD591F60B80DB61B75CF1EA7 /* NotificationBackgroundError@2x.png */,
+				80FDE0F75ADFD6BD2EEC21F9 /* NotificationBackgroundErrorIcon.png */,
+				A0AAA4497D338880D1BE6708 /* NotificationBackgroundErrorIcon@2x.png */,
+				0F9A4214BABFA1F6EF984263 /* NotificationBackgroundMessage.png */,
+				7A176C6E4335CC26AB34B663 /* NotificationBackgroundMessage@2x.png */,
+				CBE1184C6B7439051CFC8C65 /* NotificationBackgroundSuccess.png */,
+				5A61C3094E9849B9DFE9D727 /* NotificationBackgroundSuccess@2x.png */,
+				0E54ABBCFA845E4C9977E4B2 /* NotificationBackgroundSuccessIcon.png */,
+				F5BF790A8196E0B7FB0101E3 /* NotificationBackgroundSuccessIcon@2x.png */,
+				AF8B7BA9F7E1934C071064BF /* NotificationBackgroundWarning.png */,
+				A5DD69ECA4ECCAE83A46748A /* NotificationBackgroundWarning@2x.png */,
+				266605467EF8AA7CE7F3C8D0 /* NotificationBackgroundWarningIcon.png */,
+				3B7D76C5C2034FFAEFC2842C /* NotificationBackgroundWarningIcon@2x.png */,
+				170CF18619B3C2AB7092C381 /* NotificationButtonBackground.png */,
+				F282E1390A568B3441EC3DEA /* NotificationButtonBackground@2x.png */,
+				ED8DC1554A8295F475CABF7E /* TSMessagesDefaultDesign.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		99C44FC0FB6AD85715D0B42D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B827452BE6362C7FE33C6753 /* Pods-UsersAula */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A43F6FFF2B295292AC1688FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B340CC490B71A11973D0C848 /* libParse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B827452BE6362C7FE33C6753 /* Pods-UsersAula */ = {
+			isa = PBXGroup;
+			children = (
+				393ACB2A91B9149D492D4684 /* Info.plist */,
+				091CF456FC42AE3F01359BBE /* Pods-UsersAula.modulemap */,
+				C079AF4253A7065C415B22BB /* Pods-UsersAula-acknowledgements.markdown */,
+				D066F6A13CB35AA58F7A3050 /* Pods-UsersAula-acknowledgements.plist */,
+				CE2CABF172EC7CE2D7E4BE24 /* Pods-UsersAula-dummy.m */,
+				7C1A11C02AC7C6DB6AD16DAD /* Pods-UsersAula-environment.h */,
+				A7F14D46A46ABF798B4ECDEE /* Pods-UsersAula-frameworks.sh */,
+				AF2E875A9EDE2F42D70A892B /* Pods-UsersAula-resources.sh */,
+				C154E3022A50D435EDECE579 /* Pods-UsersAula-umbrella.h */,
+				270E74742DB7B9AD90F359BA /* Pods-UsersAula.debug.xcconfig */,
+				1CD214C0420B915854686C28 /* Pods-UsersAula.release.xcconfig */,
+			);
+			name = "Pods-UsersAula";
+			path = "Target Support Files/Pods-UsersAula";
+			sourceTree = "<group>";
+		};
+		BC6C8906113B7387330B3890 /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				C86FF632FE57194DEF50E058 /* HexColor.h */,
+				22F88B686578172DCC0835D5 /* HexColor.m */,
+				CC0F2AF2816F1A262A3A15A4 /* Support Files */,
+			);
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+		CC0F2AF2816F1A262A3A15A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0305D0FE990D9DC01297C43 /* Info.plist */,
+				7DB7BAB51BF3610E62A7ABF0 /* Pods-UsersAula-HexColors.modulemap */,
+				057ABCBD023D6DA0AAE4C7FF /* Pods-UsersAula-HexColors.xcconfig */,
+				3567545F25E7DDF2F3E4CFD0 /* Pods-UsersAula-HexColors-Private.xcconfig */,
+				7EB7AF840E3396DD149B21CB /* Pods-UsersAula-HexColors-dummy.m */,
+				46F2A3E51B095D273F7699C2 /* Pods-UsersAula-HexColors-prefix.pch */,
+				060104E4DD4E2287EFFAD8D6 /* Pods-UsersAula-HexColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UsersAula-HexColors";
+			sourceTree = "<group>";
+		};
+		D88A72ED18C8C7DDEDBE5C5D /* ParseUI */ = {
+			isa = PBXGroup;
+			children = (
+				6671F614EBBE5A1E3944DBEC /* PFActionButton.h */,
+				B7A66900E361B0CBE68EA2C3 /* PFActionButton.m */,
+				E47986ED3972D044D2673DFB /* PFActivityIndicatorCollectionReusableView.h */,
+				91D457CAF8484B0F1F097603 /* PFActivityIndicatorCollectionReusableView.m */,
+				64B2CD85CDA47AB9FE43632E /* PFActivityIndicatorTableViewCell.h */,
+				FE8CA01AE5D9567C0588B38F /* PFActivityIndicatorTableViewCell.m */,
+				DA4ED6896E0D13D4DC5C3765 /* PFAlertView.h */,
+				DBF6B49F3BC05591C581048C /* PFAlertView.m */,
+				D7DDF21D4F88D3AA6CBBA158 /* PFCollectionViewCell.h */,
+				5EE7F5444352B13E8B9F4B6D /* PFCollectionViewCell.m */,
+				59CD00440FDDD4620A3DB338 /* PFColor.h */,
+				13538E318C57C51E8A2FE40C /* PFColor.m */,
+				19B6D66B620133798AEE129D /* PFDismissButton.h */,
+				91277A1347D7F4906CAF1930 /* PFDismissButton.m */,
+				4B6023848B83FC57A6C9AE6B /* PFImage.h */,
+				E8878959C2691FBBFAB6D00F /* PFImage.m */,
+				87C1C41FFAA3B08E334DABD2 /* PFImageCache.h */,
+				F2975A45B51E008D93F47EAD /* PFImageCache.m */,
+				C0721AE843884A892F3C5D58 /* PFImageView.h */,
+				885ED3670E987CCE97FBEF75 /* PFImageView.m */,
+				180070C70C73DF0D9D2AD181 /* PFLoadingView.h */,
+				0D352E877AC5B90F054DE330 /* PFLoadingView.m */,
+				BF5C13628C037D7FCCD52041 /* PFLocalization.h */,
+				39C19D51EBA7B2CBA02B0F1E /* PFLogInView.h */,
+				6CEA0777B9F643652C666F2D /* PFLogInView.m */,
+				1C881F45BBEA7B7D36EC2E10 /* PFLogInViewController.h */,
+				8FC4FE1F4FFA01BEC8848DC3 /* PFLogInViewController.m */,
+				3216CF25504FA5FCD4A88B3B /* PFPrimaryButton.h */,
+				9B07172725083BE3549F9A19 /* PFPrimaryButton.m */,
+				9577746311A049F8CE7916E3 /* PFProductTableViewController.h */,
+				73D1E3A730E4D949D6DC459F /* PFProductTableViewController.m */,
+				A7FFDF48C73BC761884FB541 /* PFPurchaseTableViewCell.h */,
+				F5EEAD007A67A1521203E658 /* PFPurchaseTableViewCell.m */,
+				6DD931F0D689660C723B0E1B /* PFQueryCollectionViewController.h */,
+				894C92880FE8EB55DE8CDE5C /* PFQueryCollectionViewController.m */,
+				408375AE5FE5B9A6E81A8BBE /* PFQueryTableViewController.h */,
+				F374505AE18A6F0FA7F06594 /* PFQueryTableViewController.m */,
+				62A5DEBD4CB826D60E292D72 /* PFRect.h */,
+				F506DED2D77D172B7A1B8813 /* PFRect.m */,
+				4F43C9C5C4AD8F04FA068858 /* PFResources.h */,
+				91D84C672322077219F1780F /* PFResources.m */,
+				629638AF52E5C4947314A3CA /* PFSignUpView.h */,
+				028EC8E12A83BA1D1B203590 /* PFSignUpView.m */,
+				3E36C70188E48A4A3C3C499F /* PFSignUpViewController.h */,
+				B1E7E6BED5522CCA187EE281 /* PFSignUpViewController.m */,
+				EACFFAE72C5C9DAFE7B335C7 /* PFTableViewCell.h */,
+				228B14B615F0CDE662DB19D2 /* PFTableViewCell.m */,
+				C1A1C9A23F63D9F974678DAF /* PFTextButton.h */,
+				D26ABAB6D407D48D4FA75AD9 /* PFTextButton.m */,
+				03589305FD8F3B8CB2A55FFF /* PFTextField.h */,
+				B84162B9CE56E19B078F7F34 /* PFTextField.m */,
+				DACC1563367399462BF70302 /* ParseUI.h */,
+				23934FF8F752E9EA10CA2CAC /* ParseUIConstants.h */,
+				2D13A0EAF0309AA50C1D4452 /* Resources */,
+				45FFAFB49423CE895E60645D /* Support Files */,
+			);
+			path = ParseUI;
+			sourceTree = "<group>";
+		};
+		F7B86BA814F8DD6F5F3880BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5615E5F82C64E4BD43E926FA /* Info.plist */,
+				8E37A862A9923200467D781A /* Pods-UsersAula-Bolts.modulemap */,
+				A1DC393A3D924CD56911C0EF /* Pods-UsersAula-Bolts.xcconfig */,
+				063F48976E6042973DC96F2D /* Pods-UsersAula-Bolts-Private.xcconfig */,
+				14356AEB4FB94567710763CF /* Pods-UsersAula-Bolts-dummy.m */,
+				4FC68AE3B9D60CBC94F644EB /* Pods-UsersAula-Bolts-prefix.pch */,
+				408BBCA8F2F9427D79B22CD1 /* Pods-UsersAula-Bolts-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UsersAula-Bolts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AAD83C06AEA33FEA3D942DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A925F437EBCBAB72226957 /* PFACL.h in Headers */,
+				BD3981C810C90AC01A18BE32 /* PFAnalytics.h in Headers */,
+				4BA449EEF5BD38A077F4C27F /* PFAnonymousUtils.h in Headers */,
+				A3CD9CAF6B1E39698C26320E /* PFCloud.h in Headers */,
+				C09BD9CA38374C54543A8C83 /* PFConfig.h in Headers */,
+				4B1298025947433505635314 /* PFConstants.h in Headers */,
+				08A72827E18E44EB4098859E /* PFFile.h in Headers */,
+				BBD964C9A642B3CC38097D3D /* PFGeoPoint.h in Headers */,
+				C4531A4A89A1F4883E806C2C /* PFInstallation.h in Headers */,
+				878107E4F520842D2145DCF3 /* PFNetworkActivityIndicatorManager.h in Headers */,
+				54AC6384ECE4074A2F4AEBAA /* PFNullability.h in Headers */,
+				63D95950ED73707C05C0E48D /* PFObject+Subclass.h in Headers */,
+				38C48AF2468F0208F53A5A95 /* PFObject.h in Headers */,
+				7ED0818969F7F3A763759355 /* PFProduct.h in Headers */,
+				4EA9B8A8D7B747E83EEA2384 /* PFPurchase.h in Headers */,
+				F331E3661F59059A6DCA8368 /* PFPush.h in Headers */,
+				EEA9B544B9B4168C05C92ABC /* PFQuery.h in Headers */,
+				BD39AD54AA59A62DD9F587D2 /* PFRelation.h in Headers */,
+				0E6C9BFE02FD041033653B63 /* PFRole.h in Headers */,
+				5B63CD82CD015A5636F4E185 /* PFSession.h in Headers */,
+				D1F1923E0DCF3BE777B24E11 /* PFSubclassing.h in Headers */,
+				CD2925AA4D2853BA64D0A776 /* PFTwitterUtils.h in Headers */,
+				7C06540AB787C98771361145 /* PFUser.h in Headers */,
+				8A219C7FADA207F0C8F6333E /* PF_Twitter.h in Headers */,
+				8C1DDCE5A5B6D869BE45BA0A /* Parse.h in Headers */,
+				D2BAF78B1D2AD091B353B23A /* Pods-UsersAula-Parse-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0DC9173727E5864EE5D1FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4751B7FABA8CBBB0E5B11B8B /* Pods-UsersAula-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A66CAAEA23AB01B4400323D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2301A776661E7215E321EC /* HexColor.h in Headers */,
+				2723663DF592FDCFA9863D76 /* Pods-UsersAula-HexColors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88903D71D3A86466403843B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3835CB69BF7D497B039E8045 /* BFExecutor.h in Headers */,
+				A778781FF9567764A0AC6CB1 /* BFTask.h in Headers */,
+				4F11612194F7D4931BFC7872 /* BFTaskCompletionSource.h in Headers */,
+				121565755DE539FF8A8256A4 /* Bolts.h in Headers */,
+				0E36991C6E184F1103A9DCCE /* BoltsVersion.h in Headers */,
+				C4089D4E6C390DE8A8DA4889 /* Pods-UsersAula-Bolts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8382BA2CDB79A755B92B383 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667A673CC17AC1B26F7BDD84 /* Pods-UsersAula-TSMessages-umbrella.h in Headers */,
+				1F3E87D288EFF476F79FF214 /* TSBlurView.h in Headers */,
+				7487FB0C1F650E5E6691A6E0 /* TSMessage.h in Headers */,
+				EF160D24E5B7F97E30C1A408 /* TSMessageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA54B33056026928A2DE0112 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312C74BB8E3F147E84C76F4 /* PFActionButton.h in Headers */,
+				95F6EDADD218674EA746E883 /* PFActivityIndicatorCollectionReusableView.h in Headers */,
+				5C8FE09983B8465323AA48FE /* PFActivityIndicatorTableViewCell.h in Headers */,
+				883C05C0B45B933C3F3DCBE1 /* PFAlertView.h in Headers */,
+				47E65C115939140897F97155 /* PFCollectionViewCell.h in Headers */,
+				0C1C5C43D1CEB8A73A36A355 /* PFColor.h in Headers */,
+				7CC83EFBE50B007A94486595 /* PFDismissButton.h in Headers */,
+				986FA1D47521BAC5ADF9673D /* PFImage.h in Headers */,
+				E6A4B09E7FB4B8406F15AAF8 /* PFImageCache.h in Headers */,
+				66B804B9DA0B58B9C2FAAAC3 /* PFImageView.h in Headers */,
+				364EEA0281BDF0AE00EB16FC /* PFLoadingView.h in Headers */,
+				74039947FAD1BCB97DB8950C /* PFLocalization.h in Headers */,
+				A8F8CF5F925D40339D084E50 /* PFLogInView.h in Headers */,
+				0E769C22AF5458AFBBB884E6 /* PFLogInViewController.h in Headers */,
+				B0BE739A130AABCBD5F52878 /* PFPrimaryButton.h in Headers */,
+				0688C935FA5CBECE8BB16E68 /* PFProductTableViewController.h in Headers */,
+				F33F90FAF83150E5CD6A3BB0 /* PFPurchaseTableViewCell.h in Headers */,
+				5BE2A82A92D4E4203642670B /* PFQueryCollectionViewController.h in Headers */,
+				3D11965EE00FD0DC99A062AE /* PFQueryTableViewController.h in Headers */,
+				4C290509186BE7DFA5F2C2B0 /* PFRect.h in Headers */,
+				53B72F25B3D0A352F4DA6193 /* PFResources.h in Headers */,
+				E663C7D586AA2A0A539BA3D3 /* PFSignUpView.h in Headers */,
+				EE518A2D5AD92F86E7259573 /* PFSignUpViewController.h in Headers */,
+				D0B522D02E866B27A527FFBB /* PFTableViewCell.h in Headers */,
+				3B912ADB5298D04B20589164 /* PFTextButton.h in Headers */,
+				6C3C3416591C39FCA613D8A2 /* PFTextField.h in Headers */,
+				713EA17814F1F25A01C18285 /* ParseUI.h in Headers */,
+				6CEB2D4BF082819F27FF1C0F /* ParseUIConstants.h in Headers */,
+				0CBDB0FC06E00DA22CD26623 /* Pods-UsersAula-ParseUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B5626514445E224964C4994 /* Pods-UsersAula-ParseUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBBCAA51D67964EF2AD1D08 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-ParseUI" */;
+			buildPhases = (
+				22E8EA73E7306D75DB4FB8A9 /* Sources */,
+				3C8FB92E992FAE5DE7F71827 /* Frameworks */,
+				CA54B33056026928A2DE0112 /* Headers */,
+				E851A43FE06618EC422647F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739ACF974BDAFFD2A9437CA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-UsersAula-ParseUI";
+			productName = "Pods-UsersAula-ParseUI";
+			productReference = 1C1DE9FD0F630BBC190C9372 /* ParseUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DD8A38C2F185782A6BFA1D7 /* Pods-UsersAula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38293091CD439038874CD3D1 /* Build configuration list for PBXNativeTarget "Pods-UsersAula" */;
+			buildPhases = (
+				98C8DACDEB728D49CEB1425D /* Sources */,
+				E96868FC80438422059069CD /* Frameworks */,
+				6E0DC9173727E5864EE5D1FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD631748CCC756ACE5355C08 /* PBXTargetDependency */,
+				9CBB21333A7193D8B48BBC68 /* PBXTargetDependency */,
+				F970F919826A1AC521D9B8D0 /* PBXTargetDependency */,
+				EEC18AC861D37DDEB9EA2FC3 /* PBXTargetDependency */,
+				D4453B01BE3DE7D71D26F1E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-UsersAula";
+			productName = "Pods-UsersAula";
+			productReference = 22BF2DEBE4E26B740CB47EAB /* Pods_UsersAula.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		813FC5E1AF6F40A333A08237 /* Pods-UsersAula-Parse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C254D385E66B2B308780EF7 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-Parse" */;
+			buildPhases = (
+				9E152AE30B8EA2F959E95148 /* Sources */,
+				20D63DAFC3F2B2B59B2E89C1 /* Frameworks */,
+				3AAD83C06AEA33FEA3D942DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15D7491938FACD269F142A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-UsersAula-Parse";
+			productName = "Pods-UsersAula-Parse";
+			productReference = 778923B939F72B261C79FB49 /* Parse.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D8609D9808C6428D1516F9A /* Pods-UsersAula-Bolts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315B964BF9A352EBC2FE4273 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-Bolts" */;
+			buildPhases = (
+				81B6778AADD037C41B7CEA67 /* Sources */,
+				99093CEED576D3108BDB8B66 /* Frameworks */,
+				88903D71D3A86466403843B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UsersAula-Bolts";
+			productName = "Pods-UsersAula-Bolts";
+			productReference = 5F7FEBFBCFB26DBC4B0E971D /* Bolts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1E233198590543D41FA563C /* Pods-UsersAula-HexColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9BAFA5E53E7B1E4E0D59F0 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-HexColors" */;
+			buildPhases = (
+				6BC157861466640E010FD6F6 /* Sources */,
+				E4E7A8AB37A2EACC4A144328 /* Frameworks */,
+				7A66CAAEA23AB01B4400323D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UsersAula-HexColors";
+			productName = "Pods-UsersAula-HexColors";
+			productReference = 496A128E23A669BD09C973EA /* HexColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3F4C705C6F98666E1BFD235 /* Pods-UsersAula-TSMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE15275DFCE88981FFC97F66 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-TSMessages" */;
+			buildPhases = (
+				780D4BF5D83ADE5FA2316C94 /* Sources */,
+				B352F82519007B55AD3D4DBC /* Frameworks */,
+				B8382BA2CDB79A755B92B383 /* Headers */,
+				78A0BAF4FEDBF5F021498204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50475AFA7631EB176F91943C /* PBXTargetDependency */,
+			);
+			name = "Pods-UsersAula-TSMessages";
+			productName = "Pods-UsersAula-TSMessages";
+			productReference = 6CEA0B8B17A29B07D263F742 /* TSMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D3B0C82CAADCF65AEE497B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 8C389A8BACADBDCF1334EAB2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 017329F5702567BE6A8921DC;
+			productRefGroup = 2723171634599687558E2B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD8A38C2F185782A6BFA1D7 /* Pods-UsersAula */,
+				9D8609D9808C6428D1516F9A /* Pods-UsersAula-Bolts */,
+				A1E233198590543D41FA563C /* Pods-UsersAula-HexColors */,
+				813FC5E1AF6F40A333A08237 /* Pods-UsersAula-Parse */,
+				0B5626514445E224964C4994 /* Pods-UsersAula-ParseUI */,
+				E3F4C705C6F98666E1BFD235 /* Pods-UsersAula-TSMessages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A0BAF4FEDBF5F021498204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD96F28511E1ACC1AEE3DB /* NotificationBackgroundError.png in Resources */,
+				DE4231E8D2BE2AC7E371837B /* NotificationBackgroundError@2x.png in Resources */,
+				41CAED2B1DB6E80C7C727F3C /* NotificationBackgroundErrorIcon.png in Resources */,
+				549481CD424DD664A644E2D5 /* NotificationBackgroundErrorIcon@2x.png in Resources */,
+				869E296D73B1A0AB9A243141 /* NotificationBackgroundMessage.png in Resources */,
+				F0094BE995B870D2432C61F0 /* NotificationBackgroundMessage@2x.png in Resources */,
+				7930AF4FF9989D5B73AAD00E /* NotificationBackgroundSuccess.png in Resources */,
+				696BC9A893D68859AC8570CA /* NotificationBackgroundSuccess@2x.png in Resources */,
+				98DBC6A48E237D167E238A88 /* NotificationBackgroundSuccessIcon.png in Resources */,
+				ACB19ECAD81E9FDD75B7D7D7 /* NotificationBackgroundSuccessIcon@2x.png in Resources */,
+				7915855539BDC1CAAD6E010E /* NotificationBackgroundWarning.png in Resources */,
+				15C5A8EFB72530082344DAA5 /* NotificationBackgroundWarning@2x.png in Resources */,
+				C159D561003E211F9EBA28BD /* NotificationBackgroundWarningIcon.png in Resources */,
+				9567CE8361EDC3EF033A255D /* NotificationBackgroundWarningIcon@2x.png in Resources */,
+				436B471DA5C25FFB6DBB2E4C /* NotificationButtonBackground.png in Resources */,
+				B6F877A9CF781E8C927EEF07 /* NotificationButtonBackground@2x.png in Resources */,
+				A3E8B9B42DD8EF89F6F7FC8D /* TSMessagesDefaultDesign.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E851A43FE06618EC422647F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C332BB7F51B6E10E3B36811 /* en.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E8EA73E7306D75DB4FB8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1574CA7850F11B79EF89E4B8 /* PFActionButton.m in Sources */,
+				6EB7BEC2E5BA6AD7EE47E206 /* PFActivityIndicatorCollectionReusableView.m in Sources */,
+				58D2A93B7DECBEF56F712FEE /* PFActivityIndicatorTableViewCell.m in Sources */,
+				B4EB01F2C505E3BD153BDCC7 /* PFAlertView.m in Sources */,
+				38FA7488F1D0D38C2F649D8B /* PFCollectionViewCell.m in Sources */,
+				C7E23E5F1434A18FB390B194 /* PFColor.m in Sources */,
+				06F68B29EAA1C3F2C871FB77 /* PFDismissButton.m in Sources */,
+				F8D69F158019C8BA7A468281 /* PFImage.m in Sources */,
+				3469AB7C2A624F6F9D5D437F /* PFImageCache.m in Sources */,
+				3CE01E81DB869A960EBF1026 /* PFImageView.m in Sources */,
+				10D7C342816B894335C2B16E /* PFLoadingView.m in Sources */,
+				BEF9D1B294080724F698F3B6 /* PFLogInView.m in Sources */,
+				787B8C84F0633C9629707C78 /* PFLogInViewController.m in Sources */,
+				4FA0A0E32A407C6DD38A6615 /* PFPrimaryButton.m in Sources */,
+				C5C8F8B696065121CA87F06D /* PFProductTableViewController.m in Sources */,
+				A1B3D97C579C2A3A41863DE5 /* PFPurchaseTableViewCell.m in Sources */,
+				BB5926B528C43FFE419BBD06 /* PFQueryCollectionViewController.m in Sources */,
+				C13D60625892E6A4FAF2F4D4 /* PFQueryTableViewController.m in Sources */,
+				E61B9522F68A089D06B74876 /* PFRect.m in Sources */,
+				83658F1FEA3CCFF3699C31A2 /* PFResources.m in Sources */,
+				0CBBDB9B63B4AB2DC6860D08 /* PFSignUpView.m in Sources */,
+				659F9F76EBDE48667941B79D /* PFSignUpViewController.m in Sources */,
+				3B28668B9FA3A90EF08F0F2C /* PFTableViewCell.m in Sources */,
+				17FB74964B70F043006BA160 /* PFTextButton.m in Sources */,
+				156EDF60251F6430819ECD86 /* PFTextField.m in Sources */,
+				7A22DA037780274297A6E513 /* Pods-UsersAula-ParseUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC157861466640E010FD6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE089F2E72599640B538F39 /* HexColor.m in Sources */,
+				22E9D48D437097C3D4D48EE0 /* Pods-UsersAula-HexColors-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780D4BF5D83ADE5FA2316C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F40B152BBA446A05B8AF04 /* Pods-UsersAula-TSMessages-dummy.m in Sources */,
+				ACD4E7D1019CE5820517D149 /* TSBlurView.m in Sources */,
+				0C4E8BF61A902502CA484896 /* TSMessage.m in Sources */,
+				788A79CDE22019083CB7FE69 /* TSMessageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B6778AADD037C41B7CEA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1C22C9A205D2BA7D0ECACE /* BFExecutor.m in Sources */,
+				9E275B9DD095E81EC4ACDB73 /* BFTask.m in Sources */,
+				3A4C197F783078792A4ABF8F /* BFTaskCompletionSource.m in Sources */,
+				51C28E4DBB9FA377883D07E7 /* Bolts.m in Sources */,
+				8AF3DED1ACC59FA30135620D /* Pods-UsersAula-Bolts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C8DACDEB728D49CEB1425D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A62FCD080E1B7EA1D37BE0 /* Pods-UsersAula-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E152AE30B8EA2F959E95148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87224C054E2E3DBC4FE2592 /* Empty.m in Sources */,
+				ADC23D27E8C501666CB04954 /* Pods-UsersAula-Parse-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50475AFA7631EB176F91943C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsersAula-HexColors";
+			target = A1E233198590543D41FA563C /* Pods-UsersAula-HexColors */;
+			targetProxy = F2C081B17B8A3D5CE01C4A9C /* PBXContainerItemProxy */;
+		};
+		739ACF974BDAFFD2A9437CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsersAula-Parse";
+			target = 813FC5E1AF6F40A333A08237 /* Pods-UsersAula-Parse */;
+			targetProxy = 18F223FEDFACAB435E0F11E2 /* PBXContainerItemProxy */;
+		};
+		9CBB21333A7193D8B48BBC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsersAula-HexColors";
+			target = A1E233198590543D41FA563C /* Pods-UsersAula-HexColors */;
+			targetProxy = 221D72A97002AB8A0921298B /* PBXContainerItemProxy */;
+		};
+		A15D7491938FACD269F142A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsersAula-Bolts";
+			target = 9D8609D9808C6428D1516F9A /* Pods-UsersAula-Bolts */;
+			targetProxy = D0103A151CD2BE523CDDDF63 /* PBXContainerItemProxy */;
+		};
+		D4453B01BE3DE7D71D26F1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsersAula-TSMessages";
+			target = E3F4C705C6F98666E1BFD235 /* Pods-UsersAula-TSMessages */;
+			targetProxy = 09976648493B75B951246695 /* PBXContainerItemProxy */;
+		};
+		EEC18AC861D37DDEB9EA2FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsersAula-ParseUI";
+			target = 0B5626514445E224964C4994 /* Pods-UsersAula-ParseUI */;
+			targetProxy = 43FB9A00455779C51DB3B6FB /* PBXContainerItemProxy */;
+		};
+		F970F919826A1AC521D9B8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsersAula-Parse";
+			target = 813FC5E1AF6F40A333A08237 /* Pods-UsersAula-Parse */;
+			targetProxy = F093E21FFBF9BEACF916A319 /* PBXContainerItemProxy */;
+		};
+		FD631748CCC756ACE5355C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsersAula-Bolts";
+			target = 9D8609D9808C6428D1516F9A /* Pods-UsersAula-Bolts */;
+			targetProxy = 06AC5E7260530AA66B97DD74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20EBCF31C6DD7625F0A1164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E286EB5805F42AD5FD561AD /* Pods-UsersAula-ParseUI-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-ParseUI/Pods-UsersAula-ParseUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-ParseUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-ParseUI/Pods-UsersAula-ParseUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ParseUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3480733EF0C912EDAACE4B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63688483376E82E573C50E1D /* Pods-UsersAula-TSMessages-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-TSMessages/Pods-UsersAula-TSMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-TSMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-TSMessages/Pods-UsersAula-TSMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TSMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EF236D48F1981C182A40DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063F48976E6042973DC96F2D /* Pods-UsersAula-Bolts-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-Bolts/Pods-UsersAula-Bolts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-Bolts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-Bolts/Pods-UsersAula-Bolts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Bolts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4055ED22ACD7303F89EB7994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063F48976E6042973DC96F2D /* Pods-UsersAula-Bolts-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-Bolts/Pods-UsersAula-Bolts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-Bolts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-Bolts/Pods-UsersAula-Bolts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Bolts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FC4523FBF400F33999A471A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270E74742DB7B9AD90F359BA /* Pods-UsersAula.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula/Pods-UsersAula.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UsersAula;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F91885AD596840E237EB288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63688483376E82E573C50E1D /* Pods-UsersAula-TSMessages-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-TSMessages/Pods-UsersAula-TSMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-TSMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-TSMessages/Pods-UsersAula-TSMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TSMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FEAB50201E439FD91FF05D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3567545F25E7DDF2F3E4CFD0 /* Pods-UsersAula-HexColors-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-HexColors/Pods-UsersAula-HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-HexColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-HexColors/Pods-UsersAula-HexColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B9934839B0C3CE58CB929C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669878AA41649D2CDE87AE94 /* Pods-UsersAula-Parse-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-Parse/Pods-UsersAula-Parse-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-Parse/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-Parse/Pods-UsersAula-Parse.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Parse;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94FCFE63492B811DF5D6F3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3567545F25E7DDF2F3E4CFD0 /* Pods-UsersAula-HexColors-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-HexColors/Pods-UsersAula-HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-HexColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-HexColors/Pods-UsersAula-HexColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C985C587B1BA24E2A8EE329A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD214C0420B915854686C28 /* Pods-UsersAula.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula/Pods-UsersAula.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UsersAula;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1569906E617DCB6AC512D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669878AA41649D2CDE87AE94 /* Pods-UsersAula-Parse-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-Parse/Pods-UsersAula-Parse-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-Parse/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-Parse/Pods-UsersAula-Parse.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Parse;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E47DB9A7D9FC15E625EA83DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E9A7DC84DA537B69F2B970C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53A2FEF1EF8E5ED30FCCEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E286EB5805F42AD5FD561AD /* Pods-UsersAula-ParseUI-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UsersAula-ParseUI/Pods-UsersAula-ParseUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsersAula-ParseUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UsersAula-ParseUI/Pods-UsersAula-ParseUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ParseUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C254D385E66B2B308780EF7 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-Parse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1569906E617DCB6AC512D5E /* Debug */,
+				7B9934839B0C3CE58CB929C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315B964BF9A352EBC2FE4273 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF236D48F1981C182A40DEF /* Debug */,
+				4055ED22ACD7303F89EB7994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38293091CD439038874CD3D1 /* Build configuration list for PBXNativeTarget "Pods-UsersAula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC4523FBF400F33999A471A /* Debug */,
+				C985C587B1BA24E2A8EE329A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C389A8BACADBDCF1334EAB2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47DB9A7D9FC15E625EA83DB /* Debug */,
+				E9A7DC84DA537B69F2B970C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBBCAA51D67964EF2AD1D08 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-ParseUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EBCF31C6DD7625F0A1164F /* Debug */,
+				F53A2FEF1EF8E5ED30FCCEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9BAFA5E53E7B1E4E0D59F0 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-HexColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FCFE63492B811DF5D6F3CD /* Debug */,
+				6FEAB50201E439FD91FF05D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE15275DFCE88981FFC97F66 /* Build configuration list for PBXNativeTarget "Pods-UsersAula-TSMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3480733EF0C912EDAACE4B53 /* Debug */,
+				6F91885AD596840E237EB288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D3B0C82CAADCF65AEE497B0 /* Project object */;
+}
